@@ -24,7 +24,7 @@ public class FirstSeleniumTest {
 
     @AfterClass
     public void tearDown() {
-        //driver.quit(); //fecha o browser assim que a classe execut o teste
+        //driver.quit(); //fecha o browser assim que a classe executar o teste
     }
 
     @Test
