@@ -7,7 +7,7 @@ public class LoginPage extends BasePage {
     private By usernameField = By.id("user-name"); //esse valor esta na arvore DOM da pagina, asta inspecionar os elementos na web
     private By passwordField = By.id("password");
     private By loginButton = By.id("login-button");
-    private By errorMessage = By.xpath("//*[@id=\"login_button_container\"]/div/form/div[3]/h3"); //xpath tbm pode ser copiado da arvore DOM o inspecionar o elemento
+    private By errorMessage = By.cssSelector("#login_button_container > div > form > div.error-message-container.error > h3");
 
     public void setUsername(String username){
         set(usernameField, username); //metodo herdado de BasePage
