@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class BasePage { //Page Object Model
     public static WebDriver driver;
 
-    public void ssetDriver(WebDriver driver){
+    public void setDriver(WebDriver driver){
         BasePage.driver = driver;
     }
 
